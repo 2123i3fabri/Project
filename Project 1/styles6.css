@@ -20,7 +20,7 @@ body {
 
 .logo-container {
     display: flex;
-    justify-content: flex-start; /* Cambiado de center a flex-start */
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -89,6 +89,7 @@ body {
     align-items: flex-start;
     clear: both;
 }
+
 .content h3 {
     color: black;
     font-size: 14px;
@@ -98,7 +99,8 @@ body {
 
 .content h2 {
     color: blue;
-    font-size: 12px; /* Cambia el tamaño de la fuente a pequeño */
+    font-size: 12px;
+    /* Cambia el tamaño de la fuente a pequeño */
     float: left;
     clear: both;
 }

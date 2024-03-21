@@ -1,111 +1,64 @@
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.main-container {
-  background-color: white;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 80%;
-  height: 80vh;
-}
-
-.logo-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.logo-container img {
-  width: 200px;
-  height: auto;
-}
-
-.login-button {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #808080;
-  color: white;
-  cursor: pointer;
-}
-
-.search-box {
-  background-color: #f2f2f2;
-  padding: 20px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  border: 1px solid black;
-}
-
-.search-form {
-  display: flex;
-  justify-content: space-between;
-}
-
-.search-form label {
-  margin-right: 10px;
-}
-
-.search-form input {
-  width: 40%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.search-form .search-button {
-  background-color: #808080;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-left: 10px;
-  width: 20%;
-}
-
-.results-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.results-table th,
-.results-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
-}
-
-.results-table th {
-  background-color: #f2f2f2;
-}
-
-@media screen and (max-width: 600px) {
-  .main-container {
-    width: 100%;
-    padding: 10px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
   }
-
+  .login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%; /* Ajusta este valor para cambiar el ancho del formulario de inicio de sesión */
+    height: 70vh; /* Ajusta este valor para cambiar la altura del formulario de inicio de sesión */
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
   .logo-container img {
-    width: 100px;
+    width: 200px; /* Ajusta este valor para cambiar el tamaño del logo */
+    height: auto;
   }
-
-  .search-form {
+  .login-form {
+    display: flex;
     flex-direction: column;
   }
-
-  .search-form input,
-  .search-form .search-button {
-    width: 100%;
-    margin-bottom: 10px;
+  .login-form label {
+    margin: 10px 0;
   }
-}
+  .login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .login-form .login-button {
+    background-color: #aba8a8; /* Color de fondo del botón */
+    color: black; /* Color del texto del botón */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%; /* Ajusta este valor para cambiar el ancho del botón de login */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .login-form .login-button:hover {
+    background-color: #666666; /* Color de fondo del botón al pasar el ratón por encima */
+  }
+  .register-link {
+    color: black; /* Color del texto "Not an User?" */
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+  }
+  .register-link a {
+    color: #007bff; /* Color del texto "Register Here" */
+  }
+  

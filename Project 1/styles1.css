@@ -17,7 +17,7 @@ body {
 }
 .logo-container {
   display: flex;
-  justify-content: center; /* Cambia de center a space-between */
+  justify-content: center; 
   align-items: center;
   margin-bottom: 20px;
 }
@@ -33,6 +33,7 @@ body {
   background-color: #808080;
   color: white;
   cursor: pointer;
+  margin-left: auto;
 }
 
 .search-box {
@@ -62,8 +63,8 @@ body {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 10px; /* Añade esta línea para separar el botón del campo de entrada "To" */
-  width: 20%; /* Ajusta este valor para cambiar el ancho del botón */
+  margin-left: 10px; 
+  width: 20%; 
 }
 
 .results-table {

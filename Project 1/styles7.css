@@ -20,13 +20,12 @@ body {
 
 .logo-container {
     display: flex;
-    justify-content: flex-start; /* Cambiado de center a flex-start */
+    justify-content: flex-start;
     align-items: center;
     margin-bottom: 20px;
     position: relative;
-    top:100px
+    top: 100px
 }
-
 
 .logo-container img {
     width: 200px;
@@ -91,6 +90,7 @@ body {
     align-items: flex-start;
     clear: both;
 }
+
 .content h3 {
     color: black;
     font-size: 14px;
@@ -100,67 +100,91 @@ body {
 
 .content h2 {
     color: blue;
-    font-size: 12px; /* Cambia el tamaño de la fuente a pequeño */
+    font-size: 12px;
     float: left;
     clear: both;
 }
 
 .dashboard-title {
-    /* Estilos para el título del dashboard */
     font-size: 10px;
     color: #333;
 }
 
 .sub-title {
-    /* Estilos para el subtítulo */
     font-size: 15px;
-    color: #2e30c9;
+    color: #2e30c9;
 }
 
-.label-Name{
+.label-Name {
     margin-left: 20px;
 }
-.label-Start{
+
+.label-Start {
     margin-left: 24px;
 }
-.label-End{
+
+.label-End {
     margin-left: 70px;
 }
-.form-control.Description{
+
+.form-control.Description {
     border: 2px solid #080808;
 }
-hr{
+
+hr {
     border: 2px solid #080808;
 }
-h2{
+
+h2 {
     font-size: 14px;
 }
-.label-Departure{
+
+.label-Departure {
     margin-left: 70px;
     width: 100px;
 }
-.label-Estimated{
+
+.label-Estimated {
     margin-left: 20px;
     width: 100px;
 }
 
-.btn-link.cancel{
+.btn-link.cancel {
     position: absolute;
     top: 900px;
-    left: 530px;
+    left: 200px;
 }
-.ride-button{
+
+.ride-button {
     position: absolute;
     top: 900px;
-    left: 850px;
+    left: 500px;
     background-color: green;
     color: #f4f4f4;
 }
-.group-checks{
+
+.group-checks {
     position: absolute;
     top: 600px;
-    left: 850px; 
+    left: 450px;
 }
-.btn-group{
+
+.btn-group {
     margin-top: 100px;
+}
+
+/* Media queries para iPhone 12 Pro */
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    .main-container {
+        max-width: 90%;
+    }
+
+}
+
+
+/* Media queries para iPad Pro */
+@media only screen and (max-width: 1024px) {
+    .main-container {
+        max-width: 1024px;
+    }
 }
