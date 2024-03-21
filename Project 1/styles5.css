@@ -1,0 +1,100 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+}
+
+.settings-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.sub-title {
+    font-size: 15px;
+    color: #2e30c9;
+}
+
+.welcome-user-container {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -70px;
+}
+
+.welcome-container {
+    margin-right: 10px;
+    color: rgb(22, 20, 20);
+}
+
+.welcome-container span:last-child {
+    color: rgb(207, 207, 33);
+}
+
+.user-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.label-Name {
+    margin-left: 40px;
+}
+
+.label-Speed {
+    margin-left: 3px;
+}
+
+.form-control.Me {
+    border: 2px solid #080808;
+}
+
+.settings-button {
+    background-color: green;
+    color: #f4f4f4;
+    margin-left: 200px;
+}
+
+/* Media Query para hacer responsive */
+@media screen and (max-width: 600px) {
+    .settings-container {
+        max-width: 90%; /* Reducir el ancho máximo para pantallas más pequeñas */
+    }
+
+    .logo-container {
+        justify-content: center; /* Centrar el contenido del contenedor de logotipo */
+    }
+
+    .welcome-user-container {
+        margin-top: 0; /* Eliminar el margen superior */
+        justify-content: center; /* Centrar el contenido del contenedor de bienvenida */
+    }
+
+    .settings-button {
+        margin-left: 0; /* Eliminar el margen izquierdo */
+        margin-top: 20px; /* Añadir margen superior */
+    }
+}
