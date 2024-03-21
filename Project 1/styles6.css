@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+}
+
+.main-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start; /* Cambiado de center a flex-start */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.dashboard-title {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    color: rgb(54, 9, 187);
+    float: left;
+}
+
+.welcome-user-container {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -70px;
+}
+
+.welcome-container {
+    margin-right: 10px;
+    color: rgb(22, 20, 20);
+}
+
+.welcome-container span:last-child {
+    color: rgb(207, 207, 33);
+}
+
+.user-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    clear: both;
+}
+.content h3 {
+    color: black;
+    font-size: 14px;
+    float: left;
+    clear: both;
+}
+
+.content h2 {
+    color: blue;
+    font-size: 12px; /* Cambia el tamaño de la fuente a pequeño */
+    float: left;
+    clear: both;
+}
+
+.dashboard-title {
+    /* Estilos para el título del dashboard */
+    font-size: 10px;
+    color: #333;
+}
+
+.sub-title {
+    /* Estilos para el subtítulo */
+    font-size: 15px;
+    color: #2e30c9;
+}

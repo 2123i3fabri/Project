@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+}
+
+.main-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-start; /* Cambiado de center a flex-start */
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.dashboard-title {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: auto;
+    color: rgb(54, 9, 187);
+    float: left;
+}
+
+.welcome-user-container {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -70px;
+}
+
+.welcome-container {
+    margin-right: 10px;
+    color: gray;
+}
+
+.welcome-container span:last-child {
+    color: rgb(196, 196, 72);
+}
+
+.user-box {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    clear: both;
+}
+.content h3 {
+    color: black;
+    font-size: 14px;
+    float: left;
+    clear: both;
+}
+
+.content h2 {
+    color: blue;
+    font-size: 12px; /* Cambia el tamaño de la fuente a pequeño */
+    float: left;
+    clear: both;
+}
+
+.dashboard-title {
+    /* Estilos para el título del dashboard */
+    font-size: 10px;
+    color: #333;
+}
+
+.sub-title {
+    /* Estilos para el subtítulo */
+    font-size: 15px;
+    color: #2e30c9;
+}
+
+.rides-title {
+    /* Estilos para el título de las rides */
+    font-size: 10px;
+    color: #444;
+}
+.rides-list {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.rides-list table {
+    width: 100%;
+}
+.rides{
+    font-size: 15px;
+}
+
+.rides-list table th,
+.rides-list table td {
+    text-align: left;
+    padding: 5px;
+}
+
+.btn-mas{
+   margin-left: 390px;
+}
+.btn-mas2{
+    margin-left: 390px;
+}
+
+@media screen and (max-width: 600px) {
+    /* Estilos para pantallas con un ancho máximo de 600px */
+    .main-container {
+        max-width: 90%; /* Reducir el ancho máximo del contenedor principal */
+    }
+
+    .logo-container {
+        justify-content: center; /* Centrar el contenido del contenedor de logotipo */
+    }
+
+    .navigation {
+        flex-direction: column; /* Cambiar a disposición de columna para el menú de navegación */
+        align-items: stretch; /* Alinear elementos estirados en el eje transversal */
+    }
+
+    .navigation a {
+        margin-right: 0; /* Eliminar margen derecho en los enlaces de navegación */
+        margin-bottom: 10px; /* Añadir un espacio entre los enlaces */
+    }
+
+    .welcome-user-container {
+        margin-top: 0; /* Eliminar el margen superior */
+        justify-content: center; /* Centrar el contenido del contenedor de bienvenida */
+    }
+
+    .btn-mas, .btn-mas2 {
+        margin-left: auto; /* Ajustar el margen izquierdo automático */
+        margin-right: auto; /* Ajustar el margen derecho automático */
+    }
+}
+

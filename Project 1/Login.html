@@ -1,34 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tico Rides - Login</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo de estilos CSS -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles2.css">
 </head>
 <body>
-    <div class="container login-container"> <!-- Agregada la clase .login-container -->
-        <header>
-            <h1>Tico Rides</h1>
-            <a href="Register.html" class="register-link">Registro</a> <!-- Cambiada la clase a .register-link -->
-        </header>
-        
-        <main class="main"> <!-- Agregada la clase .main -->
-            <div class="search-container"> <!-- Agregada la clase .search-container -->
-                <input type="text" placeholder="De dónde quieres partir">
-                <input type="text" placeholder="A dónde quieres ir">
-                <button class="search-button">Buscar mi ride</button>
-            </div>
-            
-            <div class="taxi-container"> <!-- Agregada la clase .taxi-container -->
-                <h2>Taxistas Disponibles</h2>
-                <div class="taxi"> <!-- Agregada la clase .taxi -->
-                    <h3>Nombre del Taxista</h3>
-                    <p>Lugar de inicio</p>
-                    <p>Detalles del ride</p>
-                </div>
-            </div>
-        </main>
+  <div class="login-container">
+    <div class="logo-container">
+        <img src="images/Logo.png" class="img-fluid" alt="Logo">
     </div>
+    <form class="login-form">
+      <label for="username">Username</label>
+      <input type="text" id="username">
+      <label for="password">Password</label>
+      <input type="password" id="password">
+      <button type="submit" class="login-button">Login</button>
+    </form>
+    <p class="register-link">Not an User? <a href="Register.html">Register Here</a></p>
+  </div>
 </body>
 </html>
