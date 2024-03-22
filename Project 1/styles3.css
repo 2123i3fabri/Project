@@ -1,84 +1,96 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  .main-container {
-    background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%; /* Ajusta este valor para cambiar el ancho del contenedor */
-    max-width: 500px; /* Ajusta este valor para establecer el ancho máximo del contenedor */
-  }
-  .logo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  .logo-container img {
-    width: 150px;
-    height: auto;
-  }
-  .register-form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Alinea los elementos del formulario a la izquierda */
-  }
-  .register-form label {
-    margin: 10px 0;
-    margin-left: 30px; /* Añade esta línea para mover los elementos del formulario un poco a la izquierda */
-  }
-  .register-form input {
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: calc(80% - 30px); /* Ajusta este valor para cambiar el ancho de los campos de entrada */
-    margin-left: 30px; /* Añade esta línea para mover los elementos del formulario un poco a la izquierda */
-  }
-  .register-form .register-button {
-    background-color: #808080;
-    color: black;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    width: calc(80% - 30px); /* Ajusta este valor para cambiar el ancho del botón "Register" */
-    margin-left: 30px; /* Añade esta línea para mover el botón un poco a la izquierda */
-  }
-  
-  .login-link {
-      color: black;
-      text-align: center;
-      margin-top: 20px;
-      margin-left: 100px;
-    }
-  
-  .login-link a {
-    color: #007bff;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-  .input-field {
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: calc(80% - 30px); /* Ajusta este valor para cambiar el ancho de los campos de entrada */
-    margin-left: 30px; /* Añade esta línea para mover los elementos del formulario un poco a la izquierda */
+.main-container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  /* Ajusta este valor para cambiar el ancho del contenedor */
+  max-width: 500px;
+  /* Ajusta este valor para establecer el ancho máximo del contenedor */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo-container img {
+  width: 150px;
+  height: auto;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.register-form label {
+  margin: 10px 0;
+  margin-left: 30px;
+}
+
+.register-form input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(80% - 30px);
+  margin-left: 30px;
+}
+
+.register-form .register-button {
+  background-color: #808080;
+  color: black;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: calc(80% - 30px);
+  /* Ajusta este valor para cambiar el ancho del botón "Register" */
+  margin-left: 30px;
+  /* línea para mover el botón un poco a la izquierda */
+}
+
+.login-link {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.login-link a {
+  color: #007bff;
+}
+
+.input-field {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(80% - 30px);
+  /* Ajusta este valor para cambiar el ancho de los campos de entrada */
+  margin-left: 30px;
+  /* Esta línea para mover los elementos del formulario un poco a la izquierda */
 }
 
 /* Media query para ajustar el ancho de los inputs en pantallas pequeñas */
 @media only screen and (max-width: 768px) {
-    .input-field {
-        width: calc(100% - 30px); /* Ajusta el ancho de los inputs para pantallas más pequeñas */
-    }
+  .input-field {
+    width: calc(100% - 30px);
+    /* Ajusta el ancho de los inputs para pantallas más pequeñas */
+  }
 }
-
-  

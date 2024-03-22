@@ -20,7 +20,8 @@ body {
 
 .logo-container {
     display: flex;
-    justify-content: flex-start; /* Cambiado de center a flex-start */
+    justify-content: flex-start;
+    /* Cambiado de center a flex-start */
     align-items: center;
     margin-bottom: 20px;
 }
@@ -89,6 +90,7 @@ body {
     align-items: flex-start;
     clear: both;
 }
+
 .content h3 {
     color: black;
     font-size: 14px;
@@ -98,7 +100,8 @@ body {
 
 .content h2 {
     color: blue;
-    font-size: 12px; /* Cambia el tamaño de la fuente a pequeño */
+    font-size: 12px;
+    /* Cambia el tamaño de la fuente a pequeño */
     float: left;
     clear: both;
 }
@@ -120,6 +123,7 @@ body {
     font-size: 10px;
     color: #444;
 }
+
 .rides-list {
     border: 2px solid black;
     padding: 10px;
@@ -129,7 +133,8 @@ body {
 .rides-list table {
     width: 100%;
 }
-.rides{
+
+.rides {
     font-size: 15px;
 }
 
@@ -139,41 +144,52 @@ body {
     padding: 5px;
 }
 
-.btn-mas{
-   margin-left: 390px;
-}
-.btn-mas2{
+.btn-mas {
     margin-left: 390px;
 }
 
+.btn-mas2 {
+    margin-left: 390px;
+}
+
+/* Estilos para pantallas con un ancho máximo de 600px */
 @media screen and (max-width: 600px) {
-    /* Estilos para pantallas con un ancho máximo de 600px */
+
     .main-container {
-        max-width: 90%; /* Reducir el ancho máximo del contenedor principal */
+        max-width: 90%;
+        /* Reduci el ancho máximo del contenedor principal */
     }
 
     .logo-container {
-        justify-content: center; /* Centrar el contenido del contenedor de logotipo */
+        justify-content: center;
     }
 
     .navigation {
-        flex-direction: column; /* Cambiar a disposición de columna para el menú de navegación */
-        align-items: stretch; /* Alinear elementos estirados en el eje transversal */
+        flex-direction: column;
+        /* Cambia a disposición de columna para el menú de navegación */
+        align-items: stretch;
+        /* Alinea elementos estirados en el eje transversal */
     }
 
     .navigation a {
-        margin-right: 0; /* Eliminar margen derecho en los enlaces de navegación */
-        margin-bottom: 10px; /* Añadir un espacio entre los enlaces */
+        margin-right: 0;
+        /* Elimina el margen derecho en los enlaces de navegación */
+        margin-bottom: 10px;
+        /* Añadir un espacio entre los enlaces */
     }
 
     .welcome-user-container {
-        margin-top: 0; /* Eliminar el margen superior */
-        justify-content: center; /* Centrar el contenido del contenedor de bienvenida */
+        margin-top: 0;
+        /* Elimina el margen superior */
+        justify-content: center;
+        /* Centra el contenido del contenedor de bienvenida */
     }
 
-    .btn-mas, .btn-mas2 {
-        margin-left: auto; /* Ajustar el margen izquierdo automático */
-        margin-right: auto; /* Ajustar el margen derecho automático */
+    .btn-mas,
+    .btn-mas2 {
+        margin-left: auto;
+        /* Ajusta el margen izquierdo automático */
+        margin-right: auto;
+        /* Ajusta el margen derecho automático */
     }
 }
-
